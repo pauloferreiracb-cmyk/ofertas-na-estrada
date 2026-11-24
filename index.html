@@ -7,31 +7,58 @@
 <meta name="description" content="Grupo gratuito no WhatsApp com ofertas diárias para caminhoneiro: cabine, ferramentas, elétrica 12/24V e utilidades de estrada.">
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#14181f;color:#fff;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
-  .card{max-width:420px;width:100%;text-align:center}
-  .tag{display:inline-block;background:#f5a623;color:#14181f;font-weight:800;font-size:13px;letter-spacing:.5px;padding:6px 12px;border-radius:999px;margin-bottom:18px}
-  h1{font-size:28px;line-height:1.15;margin-bottom:12px}
-  p{color:#c9d1dc;font-size:17px;line-height:1.45;margin-bottom:22px}
-  ul{list-style:none;text-align:left;margin:0 auto 26px;max-width:320px}
-  li{padding:8px 0;font-size:16px;color:#e6ebf2;border-bottom:1px solid #262d38}
-  li:last-child{border-bottom:0}
-  .btn{display:block;background:#25d366;color:#0b2e17;font-weight:800;font-size:20px;padding:18px 20px;border-radius:14px;text-decoration:none;box-shadow:0 6px 18px rgba(37,211,102,.35)}
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#14181f;color:#fff;min-height:100vh;display:flex;justify-content:center;padding:22px 18px 40px}
+  .card{max-width:440px;width:100%;text-align:center}
+  .tag{display:inline-block;background:#f5a623;color:#14181f;font-weight:800;font-size:13px;letter-spacing:.5px;padding:6px 12px;border-radius:999px;margin-bottom:16px}
+  h1{font-size:32px;line-height:1.1;margin-bottom:12px;font-weight:900}
+  h1 span{color:#f5a623}
+  .sub{color:#d5dce6;font-size:18px;line-height:1.4;margin-bottom:22px}
+  .sub b{color:#fff}
+  .btn{display:block;background:#25d366;color:#0b2e17;font-weight:900;font-size:21px;padding:19px 20px;border-radius:14px;text-decoration:none;box-shadow:0 6px 18px rgba(37,211,102,.4);animation:pulse 2s infinite}
   .btn:active{transform:scale(.98)}
-  small{display:block;margin-top:16px;color:#8a95a5;font-size:13px}
+  @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
+  .free{margin-top:10px;font-size:14px;color:#9fe8bb;font-weight:600}
+  .box{margin:28px 0 8px;background:#1b212b;border:1px solid #2a3340;border-radius:16px;padding:6px 18px;text-align:left}
+  .box h2{font-size:15px;color:#f5a623;letter-spacing:.5px;padding:12px 0 4px}
+  .item{display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-bottom:1px solid #2a3340}
+  .item:last-child{border-bottom:0}
+  .ic{font-size:26px;line-height:1}
+  .item b{display:block;font-size:17px;margin-bottom:2px}
+  .item span{color:#b9c3d0;font-size:15px;line-height:1.35}
+  .post{margin:22px 0;background:#0f1319;border:1px dashed #3a4656;border-radius:14px;padding:14px;text-align:left;font-size:15px;line-height:1.5;color:#dfe6ef}
+  .post em{display:block;font-style:normal;color:#8a95a5;font-size:12px;margin-bottom:6px;letter-spacing:.5px}
+  .post strong{color:#fff}
+  .fim{font-size:20px;font-weight:800;margin:28px 0 14px}
+  small{display:block;margin-top:18px;color:#8a95a5;font-size:13px;line-height:1.4}
 </style>
 </head>
 <body>
   <main class="card">
     <span class="tag">GRUPO GRÁTIS NO WHATSAPP</span>
-    <h1>Ofertas na Estrada</h1>
-    <p>Ofertas diárias para quem vive na estrada, direto no seu WhatsApp.</p>
-    <ul>
-      <li>🛞 Itens para o caminhão e a cabine</li>
-      <li>🔧 Ferramentas e elétrica 12/24V</li>
-      <li>💰 Preço conferido no dia da postagem</li>
-    </ul>
+    <h1>Oferta boa pra <span>caminhoneiro</span>, todo dia no seu zap</h1>
+    <p class="sub">Peça, ferramenta e item de cabine com <b>preço conferido no dia</b>. Você só entra e acompanha.</p>
+
+    <a class="btn" href="https://chat.whatsapp.com/E1cueLi2BA7Izr582Fhewg">ENTRAR NO GRUPO AGORA</a>
+    <p class="free">✔ 100% gratuito · sai quando quiser</p>
+
+    <section class="box">
+      <h2>O QUE VOCÊ ENCONTRA</h2>
+      <div class="item"><div class="ic">🛞</div><div><b>Pneu, peças e cuidados com o caminhão</b><span>Itens pra rodar tranquilo na estrada.</span></div></div>
+      <div class="item"><div class="ic">🛏️</div><div><b>Conforto pra cabine</b><span>Pra descansar melhor e facilitar a vida na boleia.</span></div></div>
+      <div class="item"><div class="ic">🔧</div><div><b>Ferramentas e elétrica 12/24V</b><span>O que todo motorista precisa ter à mão.</span></div></div>
+    </section>
+
+    <div class="post">
+      <em>ASSIM É A OFERTA NO GRUPO</em>
+      <strong>PNEU NOVO PRA RODAR TRANQUILO NA ESTRADA!</strong><br>
+      🛞 Pneu 295/80R22.5, 18 lonas, liso, novo<br>
+      💰 <strong>R$ 1.927,00</strong> (de R$ 2.165,50)<br>
+      Ou 12x de R$ 185,22
+    </div>
+
+    <p class="fim">Não perde a próxima oferta 👇</p>
     <a class="btn" href="https://chat.whatsapp.com/E1cueLi2BA7Izr582Fhewg">ENTRAR NO GRUPO</a>
-    <small>Só o administrador posta. Você pode sair quando quiser.</small>
+    <small>Só o administrador posta, então o grupo não vira bagunça.<br>Valores da oferta de exemplo conferidos em 24/11/2026.</small>
   </main>
 </body>
 </html>
